@@ -172,6 +172,7 @@ color: #4caf50;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   color: var(--text-color);
 }
+
 .content-list h3 {
   min-width: 300px;
 }
@@ -192,6 +193,9 @@ color: #4caf50;
       margin: 20px;
       padding: 20px;
       position: relative;
+    }
+    .content-list ul div img:hover{
+      transform:scale(1.15)
     }
     .content-list-with-Desc{
       display: flex;
